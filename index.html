@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Happy Birthday for Marwa 🎂</title>
+    <title>Happy Birthday for Ouma 🎂</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,7 +45,7 @@ document.addEventListener("click", () => {
     music.play();
 }, { once: true });
       const params = new URLSearchParams(window.location.search);
-      const name = params.get("name") || "Marwa";
+      const name = params.get("name") || "Ouma";
       let candleCount = parseInt(params.get("candles")) || 4;
       candleCount = Math.min(Math.max(candleCount, 1), 30);
 
@@ -53,7 +53,7 @@ document.addEventListener("click", () => {
       birthdayText.innerHTML = `
         <div id="mainTitle">Happy Birthday, ${name}!</div>
         <div id="subTitle">Hope you're having a wonderful day.</div>
-        <div id="mainTitle1" class="special">04/JULY</div>
+        <div id="mainTitle1" class="special">06/November</div>
       `
       ;
       const cake = document.getElementById("cake");
